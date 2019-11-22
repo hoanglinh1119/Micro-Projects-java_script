@@ -1,0 +1,9 @@
+th{
+    width: 40px;
+    height: 40px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
