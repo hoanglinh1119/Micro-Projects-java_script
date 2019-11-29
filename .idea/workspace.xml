@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="818eb11f-6ee7-4847-8ab9-109028be7ffc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dk2b1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dk2b2.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dowhile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vonglaplongnhau.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,11 +87,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dk2b1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="170">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dk2b2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -166,6 +165,7 @@
         <option value="$PROJECT_DIR$/dk1b6.html" />
         <option value="$PROJECT_DIR$/dk1b7.html" />
         <option value="$PROJECT_DIR$/dk2b1.html" />
+        <option value="$PROJECT_DIR$/dk2b2.html" />
       </list>
     </option>
   </component>
@@ -265,7 +265,7 @@
       <workItem from="1574988980306" duration="2998000" />
       <workItem from="1574995466690" duration="600000" />
       <workItem from="1575009190756" duration="2556000" />
-      <workItem from="1575011774298" duration="9015000" />
+      <workItem from="1575011774298" duration="9310000" />
     </task>
     <task id="LOCAL-00001" summary="1212121">
       <created>1574677344916</created>
@@ -540,14 +540,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575020276040</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="dk2">
+      <created>1575020979072</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1575020979072</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87189000" />
+    <option name="totallyTimeSpent" value="87484000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12760417" />
@@ -616,7 +623,8 @@
     <MESSAGE value="&#10;dsffdsf" />
     <MESSAGE value="lt1b1" />
     <MESSAGE value="dk1b3" />
-    <option name="LAST_COMMIT_MESSAGE" value="dk1b3" />
+    <MESSAGE value="dk2" />
+    <option name="LAST_COMMIT_MESSAGE" value="dk2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TH-NHUNG.js" />
@@ -914,8 +922,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dk2b1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="170">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dk2b2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>
