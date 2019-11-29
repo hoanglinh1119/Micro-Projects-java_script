@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tinh lãi ngân hàng</title>
+</head>
+<body>
+<script>
+    let a=prompt('số tiền ban đầu bạn vay là :');
+    let b=prompt('lãi suất của ngân hàng là :');
+    let c=prompt('bạn đã vay trong số tháng là');
+    let stv=parseInt(a),d,i;
+    for (i=1;i<=parseInt(c);i++){
+        d=stv+stv*parseFloat(b);
+        stv=d;
+
+    }document.write('sô tiền bạn phải trả là:' +stv);
+
+</script>
+</body>
+</html>
