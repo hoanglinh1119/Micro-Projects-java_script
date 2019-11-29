@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dieu kien 2 bai 9</title>
+</head>
+<body>
+<script>
+    let a=prompt('nhap canh thu nhat vao');
+    let b=prompt('nhap canh thu hai vao');
+    let c= prompt('nhap canh thu 3 vao');
+   var a1=parseInt(a);
+    var a2=parseInt(b);
+    var a3=parseInt(c);
+    if (a1<=0) {
+        alert('không là ba cạnh của tam giác');
+    }else if (a2<=0){
+        alert('không phải là ba cạnh của tam giác');
+    }else if (a3<=0){
+        alert('không phải là ba cạnh của tam giác');
+    }else if (a1+a2<=a3){
+        alert('không phải là ba cạnh của tam giác');
+    }else if (a1+a3<=a2){
+        alert('không phải là ba cạnh của tam giác');
+    }else if (a2+a3<=a1){
+        alert('không phải là ba cạnh của tam giác');
+    } else alert('đây là ba cạnh của tam giác');
+</script>
+</body>
+</html>
