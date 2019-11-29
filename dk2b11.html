@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dieu kien 2 bai 11</title>
+</head>
+<body>
+<script>
+    let a=prompt('bạn lương bao nhiêu:');
+    if (parseInt(a)<=10000000){
+        document.write("bạn không mất thuế thu nhập cá nhân");//duoi 10tr khong mat thue
+    }else if (parseInt(a)<=15000000){
+        b=parseInt(a)*5/100;
+        document.write("số tiền thuế phải nộp là :" +b+'đ');//10tr-15tr đóng thuế 5%
+    }else if (parseInt(a)<=50000000){
+        b=parseInt(a)/10;
+        document.write("số tiền thuế phải nộp là :" +b+'đ');//15tr-50tr đóng thuế 10%
+    }else if(parseInt(a)<=100000000){
+        b=parseInt(a)*15/100;
+        document.write("số tiền thuế phải nộp là :" +b+'đ');//50tr-100tr đóng thuế 15%
+    }else {
+        b=parseInt(a)*20/100;
+        document.write("số tiền thuế phải nộp là :" +b+'đ');//trên 100tr đóng thuế 20%
+    }
+</script>
+</body>
+</html>
