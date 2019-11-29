@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chuyen doi tien te</title>
+</head>
+<body>
+<table>
+    <tr>
+    <th align="center" width="100">
+        <b>Amount</b><br>
+        <input type="text"  id="tien_id">
+        <div id="output_id"></div>
+    </th>
+    <th align="center" width="100">
+        <b>From curency </b><br>
+        <select name="abc">
+            <option name="text"> Viet Nam</option>
+            <option name="text"> Han Quoc</option>
+        </select>
+    </th>
+    <th align="center" width="100">
+            <b>To Curency</b><br>
+            <select name="abc">
+                <option name="text">USD</option>
+                <option name="text">EURO</option>
+            </select>
+    </th>
+    <th width="100">
+        <button onclick="amount()">convert</button>
+    </th></tr></table>
+<script>
+    function amount() {
+        let text=document.getElementById("tien_id")
+        let ketqua= text.value /23000;
+        document.getElementById('output_id').innerHTML =ketqua
+
+    }
+</script>
+
+</body>
+</html>

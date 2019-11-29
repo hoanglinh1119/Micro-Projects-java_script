@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chi so BMI</title>
+</head>
+<body>
+<h1> Tính chỉ số cơ thể của bạn</h1>
+Nhập cân nặng:<input style="text-align: center" id="cn"><br><br>
+Nhập chiều cao:<input style="text-align: center" id="cc"><br><br>
+<button id="click" onclick="bmi()">Ấn để biết kết quả</button>
+<script>
+    function bmi() {
+        var weight= document.getElementById('cn').value;
+        var height= document.getElementById('cc').value;
+        var bmi= parseInt(cn)/(parseInt(cc)*parseInt(cc));
+        if (bmi < 18)
+            document.write("Underweight");
+        else if (bmi < 25.0)
+            document.write("Normal");
+        else if (bmi < 30.0)
+            document.write("Overweight");
+        else
+            document.write("Obese");
+    }
+</script>
+</body>
+</html>

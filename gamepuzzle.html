@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo game đơn giản</title>
+</head>
+<body>
+<img onclick="m1()" id="img1" src="cat11.jpg" height="160" width="800" alt=""/>
+<img onclick="m2()" id="img2" src="monkey21.jpg" height="160" width="800" alt=""/>
+<img onclick="m3()" id="img3" src="gau31.jpg" height="160" width="800" alt =""/>
+<img onclick="m4()" id="img4" src="gau41.jpg" height="160" width="800" alt=""/>
+<img onclick="m5()" id="img5" src="monkey51.jpg" height="160" width="800"alt=""/>
+<button type="button" onclick="ketqua()">nhan</button>
+<script>
+    let a1=document.getElementById("img1").src;
+    let a2=document.getElementById("img2").src;
+    let a3=document.getElementById("img3").src;
+    let a4=document.getElementById("img4").src;
+    let a5=document.getElementById("img5").src;
+    function m1() {
+        if (a1 == "cat11.jpg") {
+            a1 = document.getElementById("img1").src = "monkey11.jpg";
+        } else if (a1 == "monkey11.jpg") {
+            a1 = document.getElementById("img1").src = "gau11.jpg";
+        }else if (a1="gau11.jpg"){
+            a1=document.getElementById("img1").src ="cat11.jpg";
+        }
+    }
+    function m2() {
+        if (a2 == "monkey21.jpg") {
+            a2 = document.getElementById("img2").src = "gau21.jpg";
+        } else if (a2 == "gau21.jpg") {
+            a2 = document.getElementById("img2").src = "cat21.jpg";
+        }else if (a2="cat21.jpg"){
+            a2=document.getElementById("img2").src ="monkey21.jpg";
+        }
+    }
+    function m3() {
+        if (a3 == "gau31.jpg") {
+            a3 = document.getElementById("img3").src = "monkey31.jpg";
+        } else if (a3 == "monkey31.jpg") {
+            a3 = document.getElementById("img3").src = "cat31.jpg";
+        }else if (a3="cat31.jpg"){
+            a3=document.getElementById("img3").src ="gau31.jpg";
+        }
+    }
+    function m4() {
+        if (a4 == "gau41.jpg") {
+            a4 = document.getElementById("img4").src = "monkey41.jpg";
+        } else if (a4 == "monkey41.jpg") {
+            a4= document.getElementById("img4").src = "cat41.jpg";
+        }else if (a4="cat41.jpg"){
+            a4=document.getElementById("img4").src ="gau41.jpg";
+        }
+    }
+    function m5() {
+        if (a5=="monkey51.jpg") {
+            a5 = document.getElementById("img5").src = "cat51.jpg";
+        } else if (a5=="cat51.jpg") {
+            a5=document.getElementById("img5").src = "gau51.jpg";
+        }else if (a5="gau51.jpg"){
+            a5=document.getElementById("img5").src ="monkey51.jpg";
+        }
+    }
+    function ketqua() {
+        switch (a1=="cat11.jpg"&&a2=="cat21.jpg"&&a3=="cat31.jpg"&&a4=="cat41.jpg"&&a5=="cat51.jpg"){
+            case true:
+                alert('you win');
+                break;
+            default:
+                alert('you lose');
+                break;
+        }
+
+    }
+</script>
+
+
+
+</html>

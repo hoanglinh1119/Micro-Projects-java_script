@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Nhập số tiền</th>
+        <th>Từ tiền</th>
+        <th>Sang tiền</th>
+        <td rowspan="2"><button onclick="tinhtien()">Đổi tiền</button> </td>
+    </tr>
+    <tr>
+        <td><input id="tien" type="number"></td>
+        <td><select id="chuyentien1">
+            <option value="1">Việt Nam</option>
+            <option value="2">Đô la Mỹ</option>
+        </select></td>
+        <td><select id="chuyentien2">
+            <option value="1">Đô la Mỹ</option>
+            <option value="2">Nhân dân tệ</option>
+        </select></td>
+    </tr>
+</table>
+<div id="hienthi"></div>
+<script>
+    function tinhtien() {
+        var sotien=document.getElementById("tien").value;
+        var tientu=document.getElementById("chuyentien1").value;
+        var sangtien=document.getElementById("chuyentien2").value;
+        if(tientu==1 & sangtien==1){
+            var tiendoi = parseInt(sotien)/23000;
+        }
+        if(tientu==1 & sangtien==2){
+            var tiendoi = parseInt(sotien)/4;
+        }
+        if(tientu==2 & sangtien==1){
+            var tiendoi = parseInt(sotien)*23000;
+        }if(tientu==2 & sangtien==2){
+            var tiendoi = parseInt(sotien)*6;
+        }
+        document.getElementById("hienthi").innerHTML = "số tiền chuyển đổi là :" + tiendoi;
+    }
+</script>
+</body>
+</html>
