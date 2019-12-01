@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>so nguyen to</title>
+</head>
+<body>
+<script>
+    let a=prompt('nhập số lượng số nguyên tố cần in ra');
+    let number=parseInt(a);
+    let count=0;
+    for (count=0;count<=number; ){
+     for (n=2;;n++){
+         for (i=2;i<=Math.sqrt(n);i++){
+             if(n%i==0){
+                 return false;
+             }
+         }
+     }
+
+    }
+
+</script>
+</body>
+</html>
