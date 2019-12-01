@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bang cuu chuong</title>
+</head>
+<body>
+<script>
+    let sout,i,j;
+    sout="<table border='1' width='100%'>";
+    i=1;
+    j=2;
+    while (i<=9){
+        sout=sout+"<tr>";
+        while (j<=9){
+            sout=sout+"<td>"+j+"x"+i+"=" + (i*j)+"</td>";
+            j++;
+        } sout=sout+"</tr>";
+        j=2;
+        i++;
+    }sout=sout+"</table>";
+document.write(sout);
+</script>
+</body>
+</html>
