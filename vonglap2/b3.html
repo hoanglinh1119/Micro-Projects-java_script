@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>b3</title>
+</head>
+<body>
+<script>
+    function chuoitamgiac(n) {
+       let bang="<table>";
+for (let i=1;i<=n;i++){
+    bang=bang+"<tr>";
+    for (let j=1;j<=i;j++){
+        bang=bang+"<td>"+"*"+"</td>";
+    } bang=bang +"</tr>";
+} bang=bang+"</table>";
+document.write(bang);
+
+        
+    }
+    chuoitamgiac(4)
+</script>
+</body>
+</html>
