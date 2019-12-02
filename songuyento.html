@@ -6,12 +6,27 @@
 </head>
 <body>
 <script>
-    let a=prompt('nhập số lượng số nguyên tố cần in ra');
-    let number=parseInt(a);
-    let count=0;
-    for (count=0;count<=number; ){
+    let Max=200;
 
-    }
+    for (let i=2;i<=Max;i++){
+            let count=0;
+            while (count<=2) {
+                for (let j = 1; j <(i-1); j++) {
+                    let c = 0;
+                    if (i % j === 0) {
+                        c = c + 1
+                    }
+                    }
+                }
+                while (c = 1) {
+                    count = count + 1;
+                    document.write(i + "<br>");
+                }
+            }
+
+
+
+
 
 </script>
 </body>

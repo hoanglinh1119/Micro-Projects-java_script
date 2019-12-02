@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chuỗi 20 số nguyên tố</title>
+</head>
+<body>
+<script>
+    function tinhsonguyento(N) {
+        if (N<2){
+            return false;
+        }
+        for (let i=2;i<N;i++){
+            if (N%i==0){
+                return false;
+            }
+        }return true;
+    }
+    function display(){
+        let dem=0;
+        let num=2;
+        while (dem<20){
+            if (tinhsonguyento(num)==true){
+                document.write(num+"    ");
+                dem+=1;
+            }
+            num++;
+        }
+    }
+    display(20)
+</script>
+</body>
+</html>
