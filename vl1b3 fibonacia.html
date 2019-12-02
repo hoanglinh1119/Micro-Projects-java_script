@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>day fibonacia</title>
+</head>
+<body>
+<script>
+    let i=parseInt(prompt('nhập độ dai chuỗi fibonacia'));
+        let a=1,b=0,dem;
+        while (i>=1) {
+            dem=a;
+            a=a+b;
+            b=dem;
+            i--;
+            document.write(dem +"<br>");
+    }
+
+</script>
+</body>
+</html>
