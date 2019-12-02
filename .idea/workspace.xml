@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="818eb11f-6ee7-4847-8ab9-109028be7ffc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vl2b4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vl1b5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vl1b3 fibonacia.html" beforeDir="false" afterPath="$PROJECT_DIR$/vl1b3 fibonacia.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,15 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MTNC.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bangcuuchuong.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -65,17 +55,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vl1b3 fibonacia.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="17" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vl2b4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vl2b4.html">
+        <entry file="file://$PROJECT_DIR$/vl1b5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="272">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -127,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BTB1.html" />
         <option value="$PROJECT_DIR$/BTB2.html" />
         <option value="$PROJECT_DIR$/BTB3.html" />
         <option value="$PROJECT_DIR$/BTB4.html" />
@@ -178,6 +176,7 @@
         <option value="$PROJECT_DIR$/songuyento.html" />
         <option value="$PROJECT_DIR$/vl1b3 fibonacia.html" />
         <option value="$PROJECT_DIR$/vl2b4.html" />
+        <option value="$PROJECT_DIR$/vl1b5.html" />
       </list>
     </option>
   </component>
@@ -280,14 +279,7 @@
       <workItem from="1575011774298" duration="10493000" />
       <workItem from="1575031482555" duration="13460000" />
       <workItem from="1575190245496" duration="11504000" />
-      <workItem from="1575248199759" duration="3898000" />
-    </task>
-    <task id="LOCAL-00008" summary="121212">
-      <created>1574752984759</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1574752984759</updated>
+      <workItem from="1575248199759" duration="4526000" />
     </task>
     <task id="LOCAL-00009" summary="121212122122">
       <created>1574753302627</created>
@@ -625,11 +617,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575251106079</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="12121212">
+      <created>1575252126360</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1575252126360</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117529000" />
+    <option name="totallyTimeSpent" value="118157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -687,7 +686,6 @@
     <MESSAGE value="1212121" />
     <MESSAGE value="12221212" />
     <MESSAGE value="121212122122" />
-    <MESSAGE value="12121212" />
     <MESSAGE value="2211212121" />
     <MESSAGE value="12121" />
     <MESSAGE value="12122112" />
@@ -703,16 +701,10 @@
     <MESSAGE value="dk2" />
     <MESSAGE value="121212" />
     <MESSAGE value="&#10;12212121" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;12212121" />
+    <MESSAGE value="12121212" />
+    <option name="LAST_COMMIT_MESSAGE" value="12121212" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sukienchuot.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../untitled1/gd_form_dki.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1057,8 +1049,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vl1b3 fibonacia.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="17" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1066,6 +1058,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vl1b5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
