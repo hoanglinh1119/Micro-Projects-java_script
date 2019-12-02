@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>so dau tien trong day fibonacci chia het cho 5</title>
+</head>
+<body>
+<script>
+    let i=20;
+    let a=1,b=0,dem;
+    while (i>=1) {
+        dem=a;
+        a=a+b;
+        b=dem;
+        i--;
+        if (dem%5==0){
+            document.write(dem+"<br>");
+            stop()
+        }
+    }
+</script>
+</body>
+</html>

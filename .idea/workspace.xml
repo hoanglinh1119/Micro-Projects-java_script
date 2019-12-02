@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="818eb11f-6ee7-4847-8ab9-109028be7ffc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/vl1b3 fibonacia.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vl2b4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/songuyento.html" beforeDir="false" afterPath="$PROJECT_DIR$/songuyento.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vl1b3 fibonacia.html" beforeDir="false" afterPath="$PROJECT_DIR$/vl1b3 fibonacia.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,15 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dk2b5.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MTNC.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,11 +62,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vl1b3 fibonacia.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="16" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vl2b4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -127,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/THSDTT.html" />
         <option value="$PROJECT_DIR$/BTB1.html" />
         <option value="$PROJECT_DIR$/BTB2.html" />
         <option value="$PROJECT_DIR$/BTB3.html" />
@@ -178,6 +177,7 @@
         <option value="$PROJECT_DIR$/vl1b2.html" />
         <option value="$PROJECT_DIR$/songuyento.html" />
         <option value="$PROJECT_DIR$/vl1b3 fibonacia.html" />
+        <option value="$PROJECT_DIR$/vl2b4.html" />
       </list>
     </option>
   </component>
@@ -280,14 +280,7 @@
       <workItem from="1575011774298" duration="10493000" />
       <workItem from="1575031482555" duration="13460000" />
       <workItem from="1575190245496" duration="11504000" />
-      <workItem from="1575248199759" duration="2697000" />
-    </task>
-    <task id="LOCAL-00007" summary="12221212">
-      <created>1574752299278</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1574752299278</updated>
+      <workItem from="1575248199759" duration="3898000" />
     </task>
     <task id="LOCAL-00008" summary="121212">
       <created>1574752984759</created>
@@ -625,11 +618,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575206719757</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="&#10;12212121">
+      <created>1575251106078</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1575251106079</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116328000" />
+    <option name="totallyTimeSpent" value="117529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -706,13 +706,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="&#10;12212121" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/THLT3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sukienchuot.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1065,7 +1058,14 @@
     <entry file="file://$PROJECT_DIR$/vl1b3 fibonacia.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vl2b4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
         </state>
       </provider>
     </entry>
