@@ -18,7 +18,36 @@ document.write(bang);
 
         
     }
-    chuoitamgiac(4)
+    chuoitamgiac(5);
+
+
+    function tamgiacnguoc(n) {
+        let bang="<table>";
+        for (let i=0;i<=n;i++){
+            bang=bang +"<tr>";
+          for (let j=n-i;j>=1;j--){
+              bang=bang+"<td>"+"*"+"</td>";
+
+          }   bang=bang+"</tr>";
+        } bang=bang+"</table>";
+        document.write(bang);
+    }
+    tamgiacnguoc(5);
+    
+    function tamgiac1(n) {
+        let bang="<table>";
+        let j=n;
+        for (let i=1;i<=n;i++){
+            bang=bang+"<tr>";
+            while (j>=n-i){
+                bang=bang+"<td>"+"*"+"</td>";
+                j--;
+            }bang=bang+"</tr>";
+        }bang=bang+"</table>";
+        document.write(bang);
+        
+    }
+    tamgiac1(5)
 </script>
 </body>
 </html>

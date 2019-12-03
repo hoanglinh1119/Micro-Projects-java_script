@@ -2,9 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>game doan so</title>
 </head>
 <body>
+<button type="button" id="nhanvao" onclick="batdaugame()">Nhấn để bắt đầu chơi</button>
+<script>
+    function batdaugame(){
+        let fistnum=prompt("hãy nhập số bắt đầu của khoảng muốn đoán:");
+        let seconnum=prompt("hãy nhập ào số kết thúc của khoảng muốn đoán:");
+        let doanso=prompt("hãy nhập vào số bạn muốn đoán trong khoảng đó:");
+        fistnum=parseInt(fistnum);
+        seconnum=parseInt(seconnum);
+        doanso=parseInt(doanso);
+        let sodung= Math.floor((Math.random()*seconnum)+fistnum);
+        if (doanso==sodung){
+            alert("bạn đã đoán đúng số ");
+        }else  {
+            doanso=prompt("bạn đã chọn sai 1 lần hãy chọn lại một số mói lần 2:");
+            doanso=parseInt(doanso);
+            if (doanso==sodung){
+                alert("bạn đã đoán đúng số ");
+            }else {
+                doanso=prompt(" bạn đã chọn sai 2 lần hãy chọn lại số mói lần 3 :");
+                doanso=parseInt(doanso);
+                if (doanso==sodung){
+                    alert("bạn đã đoán đúng số ");
+                }else {
+                    alert("game over!")
+                }
+            }
+        }
+    }
+</script>
 
 </body>
 </html>
