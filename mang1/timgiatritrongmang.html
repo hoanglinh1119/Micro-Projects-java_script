@@ -8,11 +8,16 @@
 <script>
     let a=prompt('nhập giá trị bạn cần tìm:');
     a=parseInt(a);
+    let count=0;
     let x=[1,2,3,4,6,8,9,11,15,21,25];
     for (let i=0;i<x.length;i++){
         if(a===x[i]){
+            count+=1;
             document.write('vị trí phần tử bạn cần tìm là:'+i)
         }
+    }
+    if (count===0){
+        document.write('số bạn cần tìm không có trong mảng');
     }
 </script>
 </body>
