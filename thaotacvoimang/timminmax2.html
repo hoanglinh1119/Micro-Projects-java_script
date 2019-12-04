@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gia tri duong max am min</title>
+</head>
+<body>
+<script>
+    let a=[1,55,3,8,6,-5,-1,0,7,-4,-8];
+    for (let i=0;i<a.length;i++){
+        if (a[i]>0){
+            min=a[i];
+        }
+        if (a[i]<0){
+            max=a[i];
+            break;
+        }
+    }
+    function giatriduongmin() {
+        for (let i=0;i<a.length;i++){
+            if(a[i]>0){
+                if (min>a[i]){
+                    min=a[i];
+                }
+            }
+        } document.write('gia tri nguyen duong be nhat:'+min+"<br>");
+        return min;
+    }
+    giatriduongmin();
+    function giatriammax() {
+        for (let i=0;i<a.length;i++){
+            if(a[i]<0){
+                if (max<a[i]){
+                    max=a[i];
+                }
+            }
+        } document.write('gia tri am lon nhat la:' + max);
+        return max;
+    }giatriammax()
+</script>
+
+</body>
+</html>

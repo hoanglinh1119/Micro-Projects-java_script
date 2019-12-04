@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chen phan tu vao vi tri k cua mang</title>
+</head>
+<body>
+<script>
+    let a=prompt("nhap vi tri gia tri ban muon thay doi(<=10) :");
+    let k=parseInt(a);
+    let b=prompt("nhap gia tri cho vi tri thay doi:");
+    let c=[1,2,4,5,6,2,4,5,6,2];
+    document.write('chuoi ban dau la:' +c +'<br>');
+    function them() {
+        for (let i=c.length;i>k;i--){
+            c[i]=c[i-1];
+        }
+        c[k]=parseInt(b);
+        document.write('chuoi moi la:'+c);
+    }
+    them();
+</script>
+</body>
+</html>
