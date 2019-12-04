@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tạo bảng caro</title>
+</head>
+<body>
+<h3> caro simple</h3>
+<input type="button" id="changevalue" value="change value" onclick="change()">
+<script>
+    let bang="<table>";
+    function taobangcaro(n,m) {
+        for (let i=1;i<=n;i++){
+            bang=bang+"<tr>";
+            for (let j=1; j<=m;j++){
+                bang=bang+"<td>"+"0"+"</td>";
+            } bang=bang+"</tr>";
+        } document.write(bang);
+
+    }taobangcaro(10,10);
+    function change() {
+        
+    }
+</script>
+</body>
+</html>
