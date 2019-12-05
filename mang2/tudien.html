@@ -7,25 +7,26 @@
 <body><br>
 <br>
 <input type="text" id="1">
-<input type="button"value="tim kiem" id="timkiem" onclick="timkiem">
+<input type="button"value="tim kiem" id="timkiem" onclick="timkiem()">
 <br><br><br>
-<input type="text" id="2">
-<input type="button" value="ket qua" id="ketqua" onclick="ketqua">
+<p id="display"></p>
 <script>
     let a=["value","apple","pig","dog","mouse"];
     let b=["giá trị","táo","con lợn","con chó","con chuột"];
-    for (let i=0;i<a.length;i++){
-        if(a[i]===document.getElementById(1).innerText){
-            i=j;
-             for (let j=0;j<b.length;j++){
-                 if (i===j){
-                     a[i]=b[j];
-                     document.getElementById(2).innerText=b[j];
-                 }
-             }
-        }else document.getElementById(2).innerText="khong thay";
-    }
+    function timkiem() {
+        for (let i = 0; i < a.length; i++) {
+            if (document.getElementById("1").value==a[i] ) {
+                for (let j = 0; j < b.length; j++) {
+                    if (i === j) {
+                        document.getElementById("display").innerHTML = b[j];
 
+                    }
+                }
+
+                if (document.getElementById("1").value!==a[i]) {document.getElementById("display").innerHTML = "khong thay";
+                }
+
+    }}}
 
 </script>
 </body>
