@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>game co caro</title>
+    <link rel="stylesheet" href="sudungham/gamecaro.css">
+</head>
+<body>
+<h2 align="center"> caro simple</h2>
+<input type="button" id="changevalue" value="change value" onclick="change()">
+<script>
+    let bang="<table border='1' width='100%'>";
+    function taobangcaro(n,m) {
+        for (let i=1;i<=n;i++){
+            bang[i]=[];
+            bang=bang+"<tr>";
+            for (let j=1; j<=m;j++){
+                bang=bang+"<td onclick='y()' type='button'>"+""+"</td>";
+            } bang=bang+"</tr>";
+        } document.write(bang);
+    }taobangcaro(50,70);
+function y() {
+
+}
+
+
+
+</script>
+
+</body>
+</html>

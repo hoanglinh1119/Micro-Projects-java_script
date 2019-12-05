@@ -5,21 +5,53 @@
     <title>tạo bảng caro</title>
 </head>
 <body>
-<h3> caro simple</h3>
-<input type="button" id="changevalue" value="change value" onclick="change()">
+<h3>Caro Game Simple</h3>
+<p id="carogame" />
+<input type="button" value="Change Value" onclick="changeValue()">
 <script>
-    let bang="<table>";
-    function taobangcaro(n,m) {
-        for (let i=1;i<=n;i++){
-            bang=bang+"<tr>";
-            for (let j=1; j<=m;j++){
-                bang=bang+"<td>"+"0"+"</td>";
-            } bang=bang+"</tr>";
-        } document.write(bang);
-
-    }taobangcaro(10,10);
-    function change() {
-        
+    let b = document.getElementById("carogame");
+    let board = [];
+    let data = "";
+    for (let i = 0; i < 8; i++) {
+        board[i] = new Array('.', '.', '.', '.', '.',".",".",".",'.', '.', '.', '.', '.',".",".",".");
+    }
+    for (let i = 0; i < 8; i++) {
+        data += "<br/>";
+        for (let j = 0; j < 16; j++) {
+            data += board[i][j] + "&nbsp;&nbsp;";
+        }
+    }
+    data += "<br/><br/><input type='button' value='Change Value' onclick='changeValue()'>";
+    b.innerHTML = data;
+    function changeValue() {
+        let chon=prompt("bạn đánh x hay y");
+        if (chon=="x"){
+            let positionX = prompt("X: ");
+            let positionY = prompt("Y: ");
+            data = "";
+            board[positionX][positionY] = "x";
+            for (let i = 0; i < 8; i++) {
+                data += "<br/>";
+                for (let j = 0; j < 16; j++) {
+                    data += board[i][j] + "&nbsp;&nbsp;&nbsp;&nbsp;";
+                }
+            }
+            data += "<br/><br/><input type='button' value='Change Value' onclick='changeValue()'>";
+            b.innerHTML = "<hr/>" + data;
+        }else if (chon=="y"){
+            let positionX = prompt("X: ");
+            let positionY = prompt("Y: ");
+            data = "";
+            board[positionX][positionY] = "y";
+            for (let i = 0; i < 8; i++) {
+                data += "<br/>";
+                for (let j = 0; j < 16; j++) {
+                    data += board[i][j] + "&nbsp;&nbsp;&nbsp;&nbsp;";
+                }
+            }
+            data += "<br/><br/><input type='button' value='Change Value' onclick='changeValue()'>";
+            b.innerHTML = "<hr/>" + data;
+        }
     }
 </script>
 </body>
