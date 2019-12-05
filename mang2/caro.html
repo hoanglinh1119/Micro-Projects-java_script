@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="hienthi"></div>
+
+<script>
+    let mang = new Array();
+    let sOut = "";
+    function taobanco(H, C) {
+        sOut = "<table border=2  width='300' cellspacing='5' cellpadding='10'>";
+        for (let i = 0; i < H; i++) {
+            mang[i] = new Array();
+            sOut += "<tr>";
+            for (let j = 0; j < C; j++) {
+                mang[i][j] = "*";
+                sOut += "<td onclick= \"insert('" + i+ "' , '" + j + "')\">" + mang[i][j] + "</td>";
+            }
+            sOut += "</tr>";
+        }
+        sOut += "</table>";
+        document.getElementById("hienthi").innerHTML = sOut;
+    }
+    function vebanco(H, C) {
+        sOut = "<table border=2  width='300' cellspacing='5' cellpadding='10'>";
+        for (let i = 0; i < H; i++) {
+            sOut += "<tr>";
+            for (let j = 0; j < C; j++) {
+                sOut += "<td onclick= \"insert('" + i+ "' , '" + j + "')\">" + mang[i][j] + "</td>";
+            }
+            sOut += "</tr>";
+        }
+        sOut += "</table>";
+        document.getElementById("hienthi").innerHTML = sOut;
+    }
+    let cout =true;
+    function insert(x,y) {
+        // alert(' x,y:'+x+y);
+        cout =!cout;
+        if (cout) {
+            mang[x][y] = "X";
+        } else  {
+            mang[x][y] = "O";
+        }
+        vebanco  (10,16);
+        kiemtra(x,y);
+    }
+    function kiemtra(xx,yy){
+        console.log("toan");
+        let cout2 =0;
+        for (let i=0;i<10 ;i++){
+            if (mang[i][yy]=="O"){
+                cout2++;
+                if (cout2==5){
+                    alert("you Wim");
+                }
+            }else cout2=0;
+            if (mang[i][yy]=="X"){
+                cout2++;
+                if (cout2==5){
+                    alert("you Wim");
+                }
+            }else cout2=0;
+        }
+        for (let j=0;j<16 ;j++){
+            if (mang[xx][j]=="O"){
+                cout2++;
+                if (cout2==5){
+                    alert("you Wim");
+                }
+            }else cout2=0;
+            if (mang[xx][j]=="X"){
+                cout2++;
+                if (cout2==5){
+                    alert("you Wim");
+                }
+            }else cout2=0;
+        }
+    }
+    taobanco(10, 16); // khoi tao ban co
+</script>
+</body>
+</html>
