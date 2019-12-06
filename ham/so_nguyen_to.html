@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>chuỗi 20 số nguyên tố</title>
+    <title>so nguyen to</title>
 </head>
 <body>
 <script>
@@ -11,7 +11,7 @@
             return false;
         }
         for (let i=2;i<N;i++){
-            if (N%i===0){
+            if (N%i==0){
                 return false;
             }
         }return true;
@@ -19,15 +19,16 @@
     function display(){
         let dem=0;
         let num=2;
-        while (dem<10000){
-            if (tinhsonguyento(num)==true){
+        while (dem<20){
                 document.write(num+"    ");
+                if (tinhsonguyento(num)==true){
                 dem+=1;
             }
             num++;
         }
     }
-    display(10000)
+    display(20)
+
 </script>
 </body>
 </html>
