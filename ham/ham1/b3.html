@@ -9,15 +9,19 @@
     function hamhaithamso(a,b) {
         if(a>b){
             alert("a lớn hơn b");
+            return "a>b";
         } else {
             let tong=a+b;
-            document.write("tổng hai số là :" +tong );
+            alert("tổng hai số là :" +tong );
+
+            return a+b;
         }
-        
     }
     let a=prompt("nhập giá trị a:");
+    a=parseInt(a);
     let b=prompt("nhập giá trị b :");
-      let c=hamhaithamso();
+    b=parseInt(b);
+      let c=hamhaithamso(a,b);
 </script>
 </body>
 </html>
