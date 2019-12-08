@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>b5</title>
+</head>
+<body>
+<script>
+    let star=["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe","Regulus"];
+    let starone=["Ursa Minor", "Tarurus" , "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
+    function duyetmang(a) {
+        let sao=[];
+        for (let i=0;i<star.length-1;i++){
+            if (star[i]===a){
+                sao+=star[i]+starone[i];
+                    document.write("ten ngoi sao la:" +sao);
+
+                } else document.write("khong ton tai ngoi sao do");
+            }
+    }
+    let a=prompt("nhap ten ban can tim");
+    let ketqua=[];
+    ketqua=duyetmang(a);
+    document.write(+ketqua);
+</script>
+</body>
+</html>
