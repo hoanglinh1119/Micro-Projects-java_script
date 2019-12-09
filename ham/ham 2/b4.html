@@ -7,15 +7,18 @@
 <body>
 <script>
     let a=prompt("nhập kí tự vào");
-    for (let i=0;i<a.length;i++){
-        if ((a[i]>0)&&(a[i]<9))
-        {
-            alert(" chuỗi vừa nhập là kí tự dạng chuỗi");
-        } else {
-            alert("chuỗi đã cho không phải dạng kí tụ");
+    function chuoi() {
 
+        for (let i = 0; i < a.length; i++) {
+            if ((a[i] > 0) && (a[i] < 9)) {
+                alert(" chuỗi vừa nhập là kí tự dạng chuỗi");
+            } else {
+                alert("chuỗi đã cho không phải dạng kí tụ");
+
+            }
         }
     }
+    chuoi();
 </script>
 </body>
 </html>
