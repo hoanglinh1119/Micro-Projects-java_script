@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>b3</title>
+</head>
+<body>
+<input type="number" id="sobatki"><input type="button" onclick="giaithua(sobatki)" value="ketqua">
+<p> ket qua la</p>
+<p id="kq"> </p>
+<script>
+    function giaithua() {
+        let a=document.getElementById("sobatki").value;
+        for (let i=a-1;i>1;i--){
+            a=a*i;
+        } document.getElementById("kq").innerHTML=a;
+    }
+</script>
+</body>
+</html>
