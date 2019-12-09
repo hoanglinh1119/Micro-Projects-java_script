@@ -10,18 +10,20 @@
     let starone=["Ursa Minor", "Tarurus" , "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
     function duyetmang(a) {
         let sao=[];
-        for (let i=0;i<star.length-1;i++){
+        for (let i=0,j=0;i<star.length-1,j<starone.length-1;i++,j++){
             if (star[i]===a){
                 sao+=star[i]+starone[i];
                     document.write("ten ngoi sao la:" +sao);
-
-                } else document.write("khong ton tai ngoi sao do");
-            }
+                return true;
+                }
+        }
+        if (sao=[]){
+            document.write("khong thay");
+            return false;
+        }
     }
     let a=prompt("nhap ten ban can tim");
-    let ketqua=[];
     ketqua=duyetmang(a);
-    document.write(+ketqua);
 </script>
 </body>
 </html>
