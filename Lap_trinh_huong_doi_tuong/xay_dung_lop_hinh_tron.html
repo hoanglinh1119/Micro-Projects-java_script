@@ -2,9 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Xây dựng lớp hình tròn</title>
 </head>
 <body>
-
+<script>
+    let Circle=function (Radius) {
+        this.Radius=Radius;
+        this.getRadius=function () {
+            return Radius;
+        };
+        this.getArea=function () {
+        return Math.PI*Radius*Radius;
+        }
+    };
+    let circle=new Circle(2);
+    let area=circle.getArea();
+    let radius=circle.getRadius();
+    alert("radius:"+radius+"area:"+area);
+</script>
 </body>
 </html>
