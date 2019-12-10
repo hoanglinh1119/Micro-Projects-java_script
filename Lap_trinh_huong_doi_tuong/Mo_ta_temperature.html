@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let temperature=function (c,f,k) {
+        this.c=c;
+        this.k=k;
+        this.f=f;
+        this.getf=function () {
+            return c*1.8+32;
+        };
+        this.getk=function () {
+            return 273.15+c;
+        };
+    };
+    let chuyen_doi=new temperature(25);
+    let F=chuyen_doi.getf();
+    let K=chuyen_doi.getk();
+    document.write("nhiet do F la:"+F+"nhiet do K la:"+K);
+</script>
+</body>
+</html>
