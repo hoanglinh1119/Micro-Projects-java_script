@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lớp mô tả hình chữ nhật</title>
+</head>
+<body>
+<script>
+    let Rectangle=function (height,width) {
+        this.height=height;
+        this.width=width;
+        this.getHeight=function () {
+            return height;
+        };
+        this.getWidth=function () {
+            return width;
+        };
+        this.getArea=function () {
+            return height*width;
+        };
+        this.getChuvi=function () {
+            return 2*(height+width);
+        };
+    };
+    let rectangle=new Rectangle(2,4);
+    let dientich=rectangle.getArea();
+    let chuvi=rectangle.getChuvi();
+    alert("dien tich la:"+dientich+"chu vi la:"+chuvi);
+</script>
+</body>
+</html>
