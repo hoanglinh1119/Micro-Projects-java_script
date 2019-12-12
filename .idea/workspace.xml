@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="818eb11f-6ee7-4847-8ab9-109028be7ffc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/xay_dung_dien_thoai.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/dien_thoai/xay_dung_dien_thoai.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/xay_dung_dien_thoai.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/dien_thoai/xay_dung_dien_thoai.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/xay_dung_lop_mo_ta_dien_thoai.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/dien_thoai/xay_dung_lop_mo_ta_dien_thoai.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/hien_thi_dien_thoai.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/dien_thoai/xay_dung_lop_mo_ta_dien_thoai.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="-720">
               <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
             </state>
           </provider>
@@ -63,18 +60,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/Den_pin.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-244">
               <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/hien_thi_dien_thoai.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -240,6 +232,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Microsoft Windows\WebstormProjects\untitled2\Lap_trinh_huong_doi_tuong\dien_thoai" />
       <recent name="C:\Users\Microsoft Windows\WebstormProjects\untitled2\btvl1" />
       <recent name="C:\Users\Microsoft Windows\WebstormProjects\untitled2" />
       <recent name="C:\Users\Microsoft Windows\WebstormProjects\untitled2\vl" />
@@ -319,14 +312,7 @@
       <workItem from="1576046971864" duration="7004000" />
       <workItem from="1576072320091" duration="7509000" />
       <workItem from="1576114002629" duration="3030000" />
-      <workItem from="1576125126040" duration="11198000" />
-    </task>
-    <task id="LOCAL-00036" summary="dk1b3">
-      <created>1575018964767</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1575018964767</updated>
+      <workItem from="1576125126040" duration="11760000" />
     </task>
     <task id="LOCAL-00037" summary="dk1b3">
       <created>1575019489871</created>
@@ -664,14 +650,22 @@
       <option name="project" value="LOCAL" />
       <updated>1576143743856</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="121212">
+      <created>1576143856962</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1576143856962</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220633000" />
+    <option name="totallyTimeSpent" value="221195000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.111979164" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1018,9 +1012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/hien_thi_dien_thoai.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/thuc_hanh_funny_circle.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1033,13 +1024,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ham/san_pham.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/Den_pin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-244">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/dien_thoai/xay_dung_dien_thoai.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1057,8 +1041,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/dien_thoai/xay_dung_lop_mo_ta_dien_thoai.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="-720">
           <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/hien_thi_dien_thoai.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/Den_pin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-244">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
