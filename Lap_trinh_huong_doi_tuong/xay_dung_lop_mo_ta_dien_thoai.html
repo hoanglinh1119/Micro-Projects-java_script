@@ -3,54 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>xây dựng lớp mô tả điện thoại</title>
+    <script src="xay_dung_dien_thoai.js"></script>
+    <link rel="stylesheet" href="xay_dung_dien_thoai.css">
+    <script src="hien_thi_dien_thoai.js"></script>
 </head>
 <body>
 <form>
-    <table border="1px" width="200px">
-        <th colspan="2" style="color: orange"> Iphone</th>
+    <table border="1px" width="200px" id="apple">
+        <th colspan="3" style="color: black" > Iphone</th>
         <tr>
-            <td colspan="2"> <input type="text" id="iphone"></td>
+            <td colspan="3"> <input type="text" id="hien_thi1"></td>
         </tr>
         <tr>
-            <td><input type="button" value="Mở hộp thư" onclick="mht"></td>
-            <td><input type="button" value="gửi tin nhắn" onclick="gtn"></td>
+            <td><input type="button" value="Hộp thư đến" onclick="hop_thu_den()"></td>
+            <td><input type="button" value="gửi tin nhắn" onclick="gui_tin_nhan()"></td>
         </tr>
         <tr>
-            <td><input type="button" value="Hộp thư đến" onclick="htd"></td>
-            <td><input type="button" value="soạn tin nhắn" onclick="stn"></td>
+            <td><input type="button" onclick="tin_nhan_da_gui()" value="tin nhắn đã gửi"></td>
+            <td> <input type="button" value="hãy sạc pin" onclick="hay_sac_pin()"></td>
+            <td colspan="2"><input type="button" value="Bật máy" onclick="bat_may()"></td>
         </tr>
-        <tr>
-            <td><input type="button" onclick="tndg" value="tin nhắn đã gửi"></td>
-            <td><input type="button" value="trạng thái pin" onclick="ttp"></td>
-        </tr>
-        <tr>
-            <td> <input type="button" value="hãy sạc pin" onclick="hsp"></td>
-            <td><input type="button" value="Bật máy Iphone" onclick="bmip"></td>
-        </tr>
-
     </table>
 </form>
-<br> <br>
+<br> <br><br>
 <form>
-    <table border="1px" width="200px">
-        <th colspan="2" style="color: red" > Samsung </th>
+    <table border="1px" width="200px" id="samsung">
+        <th colspan="3" style="color: red" > Samsung </th>
         <tr>
-            <td colspan="2"><input type="text" id="samsung"></td>
-        </tr>
-        <tr><td><input type="button" value="Mở hộp thư" onclick="mht1"></td>
-            <td><input type="button" value="gửi tin nhắn" onclick="gtn1"></td>
+            <td colspan="3"><input type="text" id="hien_thi2"></td>
         </tr>
         <tr>
-            <td><input type="button" value="Hộp thư đến" onclick="htd1"></td>
-            <td><input type="button" value="soạn tin nhắn" onclick="stn1"></td>
+            <td><input type="button" value="Hộp thư đến" onclick="hop_thu_den()"></td>
+            <td><input type="button" value="gửi tin nhắn" onclick="gui_tin_nhan()"></td>
         </tr>
         <tr>
-            <td><input type="button" onclick="tndg1" value="tin nhắn đã gửi"></td>
-            <td><input type="button" value="trạng thái pin" onclick="ttp1"></td>
-        </tr>
-        <tr>
-            <td> <input type="button" value="hãy sạc pin" onclick="hsp1"></td>
-            <td><input type="button" value="Bật máy Samsung" onclick="bmip1"></td>
+            <td><input type="button" onclick="tin_nhan_da_gui()" value="tin nhắn đã gửi"></td>
+            <td> <input type="button" value="hãy sạc pin" onclick="hay_sac_pin()"></td>
+            <td colspan="2"><input type="button" value="Bật máy" onclick="bat_may()"></td>
         </tr>
     </table>
 </form>

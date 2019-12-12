@@ -1,0 +1,9 @@
+tr{
+    padding: 1%; background-color: gold;
+}
+td{
+    padding: 0; background-color: #00bb00;
+    height: 15%; width: 15%;}
+th{
+    padding: 0; width: 40%;height: 30%;
+}
