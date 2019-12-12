@@ -5,43 +5,79 @@
     <title>xây dựng lớp mô tả điện thoại</title>
     <script src="xay_dung_dien_thoai.js"></script>
     <link rel="stylesheet" href="xay_dung_dien_thoai.css">
-    <script src="hien_thi_dien_thoai.js"></script>
 </head>
 <body>
-<form>
-    <table border="1px" width="200px" id="apple">
-        <th colspan="3" style="color: black" > Iphone</th>
-        <tr>
-            <td colspan="3"> <input type="text" id="hien_thi1"></td>
-        </tr>
-        <tr>
-            <td><input type="button" value="Hộp thư đến" onclick="hop_thu_den()"></td>
-            <td><input type="button" value="gửi tin nhắn" onclick="gui_tin_nhan()"></td>
-        </tr>
-        <tr>
-            <td><input type="button" onclick="tin_nhan_da_gui()" value="tin nhắn đã gửi"></td>
-            <td> <input type="button" value="hãy sạc pin" onclick="hay_sac_pin()"></td>
-            <td colspan="2"><input type="button" value="Bật máy" onclick="bat_may()"></td>
-        </tr>
-    </table>
-</form>
-<br> <br><br>
-<form>
-    <table border="1px" width="200px" id="samsung">
-        <th colspan="3" style="color: red" > Samsung </th>
-        <tr>
-            <td colspan="3"><input type="text" id="hien_thi2"></td>
-        </tr>
-        <tr>
-            <td><input type="button" value="Hộp thư đến" onclick="hop_thu_den()"></td>
-            <td><input type="button" value="gửi tin nhắn" onclick="gui_tin_nhan()"></td>
-        </tr>
-        <tr>
-            <td><input type="button" onclick="tin_nhan_da_gui()" value="tin nhắn đã gửi"></td>
-            <td> <input type="button" value="hãy sạc pin" onclick="hay_sac_pin()"></td>
-            <td colspan="2"><input type="button" value="Bật máy" onclick="bat_may()"></td>
-        </tr>
-    </table>
-</form>
+<div id="iphone">
+    <h1>Iphone</h1>
+    <input type="text" id="hienthiip"><br><br>
+    <button id="guitinip" onclick="guitinnhanip()">Gửi tin</button>
+    <button id="xemtinip" onclick="xemtinnhanip()">Xem tin</button>
+    <br><br>
+    <button id="xempinip" onclick="xempinip()">Xem pin</button>
+    <button id="xacpinip" onclick="xacpinip()">Xạc pin</button>
+</div>
+
+<br><br><br><br>
+
+<div id="nokia">
+    <h1>Nokia</h1>
+    <input type="text" id="hienthinokia"><br><br>
+    <button id="guitinnokia" onclick="guitinnhannokia()">Gửi tin</button>
+    <button id="xemtinnokia" onclick="xemtinnhannokia()">Xem2tin</button>
+    <br><br>
+    <button id="xempinnokia" onclick="xempinnokia()">Xem pin</button>
+    <button id="xacpinnokia" onclick="xacpinnokia()">Xạc pin</button>
+</div>
+
+
+<script>
+    let Iphone = new Apple();
+    let Nokia = new Apple();
+    Iphone.setPin(50);
+    Nokia.setPin(30);
+    let pinnokia = Nokia.getPin();
+    let pinip =Iphone.getPin();
+
+    function guitinnhannokia() {
+        let tinnhan = document.getElementById("hienthinokia").value;
+        Iphone.setHop_Thu_Den(tinnhan);
+        document.getElementById("hienthiip").value = "bạn có 1 tin nhắn";
+        pinnokia--;
+        Nokia.setPin(pinnokia);
+    }
+    function xemtinnhanip() {
+        let xemtin = Iphone.getHop_Thu_Den();
+        document.getElementById("hienthiip").value = xemtin;
+        pinip--;
+        Iphone.getPin(pinip);
+    }
+    function guitinnhanip() {
+        let tinnhan = document.getElementById("hienthiip").value;
+        Nokia.setHop_Thu_Den(tinnhan);
+        document.getElementById("hienthinokia").value = "bạn có 1 tin nhắn";
+        pinip--;
+        Iphone.getPin(pinip);
+    }
+    function xemtinnhannokia() {
+        let xemtin = Nokia.getHop_Thu_Den();
+        document.getElementById("hienthinokia").value = xemtin;
+        pinnokia--;
+        Nokia.setPin(pinnokia);
+    }
+    function xempinip() {
+        document.getElementById("hienthiip").value = pinip;
+    }
+    function xempinnokia() {
+        document.getElementById("hienthinokia").value = pinnokia;
+    }
+    function xacpinip() {
+        pinip++;
+        Iphone.setPin(pinip);
+    }
+    function xacpinnokia() {
+        pinnokia ++;
+        Nokia.setPin(pinnokia);
+    }
+</script>
 </body>
 </html>
