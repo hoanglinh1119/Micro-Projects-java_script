@@ -5,6 +5,21 @@
     <title>cau 2</title>
 </head>
 <body>
-
+<script>
+    let arr1=[12,6,3,7,21,5,7];
+    let b=prompt("nhap vi tri ban muon xoa");
+    index=parseInt(b);
+    function tryRemoveFromArray(arr,index) {
+       if((index>=0)&&(index<arr.length)){
+        for (let i=index;i<arr.length-1;i++){
+            arr[i]=arr[i+1];
+        }
+        arr.length--;
+        document.write("chuoi so moi la:"+arr);
+    } else {document.write("chuoi cua ban la:"+arr);
+       }
+    }//
+       tryRemoveFromArray(arr1,index);
+</script>
 </body>
 </html>
