@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="818eb11f-6ee7-4847-8ab9-109028be7ffc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mang2/LT_mang2/b4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thi_thuc_hanh/cau_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/thi_thuc_hanh/cau_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thi_thuc_hanh/cau_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/thi_thuc_hanh/cau_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thi_thuc_hanh/cau_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/thi_thuc_hanh/cau_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thi_thuc_hanh/cau_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/thi_thuc_hanh/cau_4.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/thi_thuc_hanh/cau_1.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -32,16 +29,25 @@
         <entry file="file://$PROJECT_DIR$/thi_thuc_hanh/cau_2.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thi_thuc_hanh/cau_3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/thi_thuc_hanh/cau_3.html">
+        <entry file="file://$PROJECT_DIR$/mang2/LT_mang2/b4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="238">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -50,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/thi_thuc_hanh/cau_4.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+              <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
               <folding>
                 <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -75,7 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dk2b3.html" />
         <option value="$PROJECT_DIR$/dk2b4.html" />
         <option value="$PROJECT_DIR$/dk2 b6.html" />
         <option value="$PROJECT_DIR$/dk2b7.html" />
@@ -126,6 +131,7 @@
         <option value="$PROJECT_DIR$/thi_thuc_hanh/cau_1.html" />
         <option value="$PROJECT_DIR$/thi_thuc_hanh/cau_2.html" />
         <option value="$PROJECT_DIR$/thi_thuc_hanh/cau_3.html" />
+        <option value="$PROJECT_DIR$/mang2/LT_mang2/b4.html" />
       </list>
     </option>
   </component>
@@ -142,6 +148,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,6 +179,17 @@
             <path>
               <item name="untitled2" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled2" type="462c0819:PsiDirectoryNode" />
+              <item name="mang2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled2" type="462c0819:PsiDirectoryNode" />
+              <item name="mang2" type="462c0819:PsiDirectoryNode" />
+              <item name="LT_mang2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled2" type="462c0819:PsiDirectoryNode" />
               <item name="thaotacvoimang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -183,7 +201,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,14 +303,8 @@
       <workItem from="1576072320091" duration="7509000" />
       <workItem from="1576114002629" duration="3030000" />
       <workItem from="1576125126040" duration="13288000" />
-      <workItem from="1576203464303" duration="7586000" />
-    </task>
-    <task id="LOCAL-00044" summary="dk2">
-      <created>1575021941670</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1575021941670</updated>
+      <workItem from="1576203464303" duration="7613000" />
+      <workItem from="1576250651243" duration="1409000" />
     </task>
     <task id="LOCAL-00045" summary="dk2">
       <created>1575022128839</created>
@@ -631,11 +642,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576210035780</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="121212">
+      <created>1576211077350</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1576211077350</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230309000" />
+    <option name="totallyTimeSpent" value="231745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -712,13 +730,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="121212" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/btvl1/vl1b3 fibonacia.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vonglap2/b2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -990,34 +1001,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thi_thuc_hanh/cau_4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thi_thuc_hanh/cau_1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thi_thuc_hanh/cau_2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thi_thuc_hanh/cau_4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thi_thuc_hanh/cau_3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="408">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mang2/LT_mang2/b4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
         </state>
       </provider>
     </entry>
