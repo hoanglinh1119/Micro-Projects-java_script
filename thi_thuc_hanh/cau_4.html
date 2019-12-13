@@ -12,8 +12,7 @@
         this.y=y;
         this.height=height;
         this.width=width;
-
-        this.Draw=function() {
+        this.render=function() {
             var c = document.getElementById("mycanvas");
             var ctx = c.getContext("2d");
             ctx.beginPath();
@@ -23,7 +22,7 @@
         }
     };
         let rectangle=new Rectangle(10,10,200,100);
-        rectangle.Draw();
+        rectangle.render();
 </script>
 </body>
 </html>
