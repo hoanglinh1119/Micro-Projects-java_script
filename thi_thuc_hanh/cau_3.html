@@ -5,6 +5,22 @@
     <title>cau 3</title>
 </head>
 <body>
+<script>
+    function isPrime(n) {
+        if(n<2){
+            return false;
+        }
+        for (let i=2;i<n;i++){
+            if(n%i===0){
+              return true;
+            } else {return false;
+            }
+        }
+    }
+    let n=prompt("nhap so ban muon kiem tra vao");
+    if(isPrime(n)==true){document.write("false")}
+    else {document.write("true")};
+</script>
 
 </body>
 </html>
