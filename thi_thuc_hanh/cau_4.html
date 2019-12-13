@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cau_4</title>
+</head>
+<body>
+<canvas id="mycanvas" height="400" width="800" style="border: 1px solid black"></canvas>
+<script>
+    let Rectangle=function (x,y,width,height) {
+        this.x=x;
+        this.y=y;
+        this.height=height;
+        this.width=width;
+
+        this.Draw=function() {
+            var c = document.getElementById("mycanvas");
+            var ctx = c.getContext("2d");
+            ctx.beginPath();
+            ctx.rect(x, y, this.width, this.height);
+            ctx.fillStyle = "#000000";
+            ctx.fill();
+        }
+    };
+        let rectangle=new Rectangle(10,10,200,100);
+        rectangle.Draw();
+</script>
+</body>
+</html>
