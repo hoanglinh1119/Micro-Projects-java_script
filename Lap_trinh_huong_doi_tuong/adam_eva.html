@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>adam_eva</title>
+</head>
+<body>
+<div id="dialog"></div>
+<script>
+    function Apple() {
+        this.weight = 10;
+
+        this.decrease = function () {
+            if (this.weight > 0) {
+                this.weight--;
+            }
+        };
+
+        this.isEmpty = function () {
+            return (this.weight === 0);
+        };
+
+        this.getWeight = function () {
+            return this.weight;
+        }
+    }
+
+    function Human(name, gender, weight) {
+        this.name = name;
+        this.gender = gender;
+        this.weight = weight;
+
+        this.isMale = function () {
+            return (this.gender === true);
+        };
+
+        this.setGender = function (gender) {
+            this.gender = gender;
+        };
+
+        this.checkApple = function (apple) {
+            return (apple.isEmpty() === false);
+        };
+
+        this.eat = function (apple) {
+            this.weight++;
+            apple.decrease();
+        };
+
+        this.say = function (sentence) {
+            // alert(sentence); // chưa tốt
+            return sentence;
+        };
+
+        this.getName = function () {
+            return this.name;
+        };
+
+        this.setName = function (name) {
+            this.name = name;
+        };
+
+
+        this.getWeight = function () {
+            return this.weight;
+        };
+
+        this.setWeight = function (weight) {
+            this.weight = weight;
+        }
+
+    }
+    //
+
+    let adam = new Human("Adam", true, 60);
+    let eva = new Human("Eva", false, 47);
+
+    let apple = new Apple();
+
+
+    function updateUI(text) {
+        let dialog = document.getElementById("dialog");
+        dialog.innerHTML += text + '<br>';
+    }
+
+
+    while (apple.isEmpty() === false) {
+
+        updateUI(adam.say("Eva ăn táo đi!"));
+        eva.eat(apple);
+
+        if (apple.isEmpty()) {
+            break;
+        }
+
+        updateUI(eva.say("Eva ăn rồi! Adam ăn đi!"));
+        adam.eat(apple);
+
+        if (apple.isEmpty()) {
+            break;
+        }
+
+    }
+</script>
+</body>
+</html>

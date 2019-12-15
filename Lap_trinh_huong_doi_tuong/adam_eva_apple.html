@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chuyen an tao</title>
+</head>
+<body>
+<button id="adaman" onclick="Adamantao()">Adam ăn táo</button>
+<button id="evaan" onclick="Evaantao()">Eva ăn táo</button>
+<script>
+    function Apple(soluong) {
+    this.soluong = soluong;
+
+    this.getsoluong = function () {
+        return this.soluong;
+    }
+
+    this.setsoluong = function (soluong) {
+        this.soluong = soluong;
+    }
+    this.tao_apple = function () {
+        let sotao= prompt("hay nhap so luong tao :");
+        this.setsoluong(parseInt(sotao));
+        alert(this.soluong);
+    }
+
+    this.giam = function () {
+        this.soluong--;
+    }
+}
+
+
+function Human(name,gioitinh,cannang) {
+    this.name=name;
+    this.gioitinh=gioitinh;
+    this.cannang = cannang;
+
+    this.getname = function () {
+        return this.name;
+    }
+    this.getgioitinh = function () {
+        return this.gioitinh;
+    }
+    this.getcannang = function () {
+        return this.cannang;
+    }
+
+    this.setname = function (name) {
+        this.name = name;
+    }
+    this.setgioitinh = function (gioitinh) {
+        this.gioitinh = gioitinh;
+    }
+    this.setcannang = function (cannang) {
+        this.cannang = cannang;
+    }
+
+    this.an_apple = function (apple) {
+        apple.giam();
+        this.cannang++;
+    }
+
+}
+    //
+    let Adam = new Human("Adame","Nam",100);
+    let Eva= new Human("Eva","Nu",99);
+    let Apple_china = new Apple();
+    Apple_china.tao_apple();
+    ``
+    function Adamantao(){
+        if (Apple_china.getsoluong() > 0){
+            Adam.an_apple(Apple_china);
+            alert("can nang của Adam : " +Adam.getcannang());
+        } else {
+            alert("táo hết rồi");
+        }
+    }
+    function Evaantao(){
+        if (Apple_china.getsoluong() > 0){
+            Eva.an_apple(Apple_china);
+            alert("can nang của Eva : " +Eva.getcannang());
+        } else {
+            alert("táo hết rồi");
+        }
+    }
+</script>
+</body>
+</html>
