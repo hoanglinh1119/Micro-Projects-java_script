@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="818eb11f-6ee7-4847-8ab9-109028be7ffc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/di_chuyen_doi_tuong.html" afterDir="false" />
+    <list default="true" id="818eb11f-6ee7-4847-8ab9-109028be7ffc" name="Default Changelist" comment="121212">
+      <change afterPath="$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/cong_tac.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/while.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamepuzzle.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,14 +72,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/di_chuyen_doi_tuong.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="561">
+              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/cong_tac.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="58" column="7" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/Den_pin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -111,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dk2b8.html" />
         <option value="$PROJECT_DIR$/dk2b9.html" />
         <option value="$PROJECT_DIR$/dk2b10.html" />
         <option value="$PROJECT_DIR$/dk2b11.html" />
@@ -162,6 +178,7 @@
         <option value="$PROJECT_DIR$/thi_thuc_hanh/cau_1.html" />
         <option value="$PROJECT_DIR$/mang2/LT_mang2/b6.html" />
         <option value="$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/di_chuyen_doi_tuong.html" />
+        <option value="$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/cong_tac.html" />
       </list>
     </option>
   </component>
@@ -335,14 +352,9 @@
       <workItem from="1576125126040" duration="13288000" />
       <workItem from="1576203464303" duration="7613000" />
       <workItem from="1576250651243" duration="5522000" />
-      <workItem from="1576298486258" duration="1700000" />
-    </task>
-    <task id="LOCAL-00048" summary="dk2">
-      <created>1575040144523</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1575040144523</updated>
+      <workItem from="1576298486258" duration="2401000" />
+      <workItem from="1576376369161" duration="8368000" />
+      <workItem from="1576387840146" duration="1590000" />
     </task>
     <task id="LOCAL-00049" summary="dk2">
       <created>1575041888176</created>
@@ -680,17 +692,24 @@
       <option name="project" value="LOCAL" />
       <updated>1576255390545</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="121212">
+      <created>1576300214552</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1576300214553</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237558000" />
+    <option name="totallyTimeSpent" value="248217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.111979164" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.111979164" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -703,7 +722,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32921812" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32882273" />
       <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32921812" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -761,13 +780,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="121212" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/songuyento10.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dequy.html" />
     <entry file="file://$PROJECT_DIR$/vonglap2/b3.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -960,13 +972,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/Den_pin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/thuc_hanh_funny_circle.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1046,6 +1051,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mang2/LT_mang2/b6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/di_chuyen_doi_tuong.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/Den_pin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/thi_thuc_hanh/cau_4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1056,20 +1082,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mang2/LT_mang2/b6.html">
+    <entry file="file://$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/cong_tac.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/di_chuyen_doi_tuong.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="589">
+          <caret line="58" column="7" lean-forward="true" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> công tắc _ bóng đèn </title>
+</head>
+<body>
+<script>
+    var ElectricLamp=function () {
+    this.light=function () {
+        if(this.status){
+            alert("lighting");
+        }else {
+            alert("not lighting");
+        }
+    };
+    this.turnOff=function () {
+        this.status=false;
+    };
+    this.turnOn=function () {
+        this.status=true;
+    }
+};
+    var SwitchBotton=function () {
+        this.connectToLamp=function () {
+            if(this.switch){
+                 alert("switch on");
+            } else {
+                alert("switch off");
+            }
+        };
+        this.switchOff=function () {
+            this.switch=false;
+
+        };
+        this.switchOn=function () {
+        this.switch=true;
+        }
+    };
+
+    // hien thi
+    let electricLamp=new ElectricLamp();
+    let switchBotton=new SwitchBotton();
+      function bat_den(){
+          switchBotton.switchOn();
+          switchBotton.connectToLamp();
+          electricLamp.turnOn();
+          electricLamp.light();
+      }
+    function tat_den() {
+        switchBotton.switchOff();
+        switchBotton.connectToLamp();
+        electricLamp.turnOff();
+        electricLamp.light();
+    }
+     for (let  i=0;i<5;i++){
+         bat_den();
+         tat_den();
+     }
+</script>
+</body>
+</html>
