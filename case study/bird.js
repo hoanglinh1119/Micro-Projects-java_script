@@ -8,7 +8,9 @@ var Bird=function (game) {
     this.currentImageIndex=0;
     this.currentFrame=0;
     this.y=0;
-
+    this.speedY=0;
+    this.acceleration=1;
+    this.direction='down';
 
     self=this;
 
@@ -49,9 +51,38 @@ var Bird=function (game) {
         if(self.currentFrame%5==0){
             self.changeImage();
         }
+        if(this.y<=650){
+            if(this.direction='down'){
+                this.speedY+=this.acceleration;
+
+            }
+           else {
+               this.speedY-=this.acceleration;
+
+            }
+           this.y+=this.speedY;
+        }
+
+       if(this.y>650){
+           this.y=650;
+       }
+
+       if(this.y>=600){
+           this.game.gameOver=true;
+       }
+    }
+    this.flap=function () {
+        if(this.game.gameOver){
+            return;
+        }
+        this.speedY=-15;
     }
 
+
     this.changeImage=function(){
+        if(this.game.gameOver){
+            return;
+        }
         if(this.currentImageIndex==2){
             this.currentImageIndex=0;
         }else {

@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="818eb11f-6ee7-4847-8ab9-109028be7ffc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/case study/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case study/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case study/bird.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case study/game.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case study/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case study/cot.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case study/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/case study/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case study/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/case study/bg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case study/bird.js" beforeDir="false" afterPath="$PROJECT_DIR$/case study/bird.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case study/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/case study/game.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case study/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/case study/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/case study/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="85">
+              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -36,14 +37,18 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/case study/base.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/case study/bg.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state>
+              <caret selection-end-line="36" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -51,17 +56,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/case study/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+            <state relative-caret-position="136">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/case study/cot.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/case study/bird.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+            <state relative-caret-position="1411">
+              <caret line="83" column="19" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -78,11 +92,6 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/case study/mid.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/case study/cot2.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -103,7 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vl1b2.html" />
         <option value="$PROJECT_DIR$/vl1b3 fibonacia.html" />
         <option value="$PROJECT_DIR$/vl1b5.html" />
         <option value="$PROJECT_DIR$/vl1b6.html" />
@@ -149,11 +157,12 @@
         <option value="$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/cong_tac.html" />
         <option value="$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/adam_eva.html" />
         <option value="$PROJECT_DIR$/Lap_trinh_huong_doi_tuong/adam_eva_apple.html" />
-        <option value="$PROJECT_DIR$/case study/base.js" />
-        <option value="$PROJECT_DIR$/case study/index.html" />
         <option value="$PROJECT_DIR$/case study/bg.js" />
-        <option value="$PROJECT_DIR$/case study/game.js" />
+        <option value="$PROJECT_DIR$/case study/base.js" />
         <option value="$PROJECT_DIR$/case study/bird.js" />
+        <option value="$PROJECT_DIR$/case study/game.js" />
+        <option value="$PROJECT_DIR$/case study/index.html" />
+        <option value="$PROJECT_DIR$/case study/cot.js" />
       </list>
     </option>
   </component>
@@ -336,14 +345,8 @@
       <workItem from="1576376369161" duration="8368000" />
       <workItem from="1576387840146" duration="2850000" />
       <workItem from="1576478898270" duration="719000" />
-      <workItem from="1576480581370" duration="10736000" />
-    </task>
-    <task id="LOCAL-00051" summary="dk2">
-      <created>1575044541787</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1575044541787</updated>
+      <workItem from="1576480581370" duration="10930000" />
+      <workItem from="1576505826321" duration="9816000" />
     </task>
     <task id="LOCAL-00052" summary="dk2">
       <created>1575044983363</created>
@@ -681,11 +684,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576390315781</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="dfsdfs">
+      <created>1576491587865</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1576491587866</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260932000" />
+    <option name="totallyTimeSpent" value="270942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -759,16 +769,10 @@
     <MESSAGE value="12121212" />
     <MESSAGE value="1212121" />
     <MESSAGE value="121212" />
-    <option name="LAST_COMMIT_MESSAGE" value="121212" />
+    <MESSAGE value="dfsdfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="dfsdfs" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/btvl1/vl1b8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="77" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nhapmang2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1007,49 +1011,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case study/gameover.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case study/cot2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case study/mid.png">
+    <entry file="file://$PROJECT_DIR$/case study/bg1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/case study/down.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/case study/bg1.jpg">
+    <entry file="file://$PROJECT_DIR$/case study/mid.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case study/cot2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case study/gameover.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/case study/bg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case study/game.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        <state>
+          <caret selection-end-line="36" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/case study/base.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case study/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="408">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/case study/bird.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        <state relative-caret-position="1411">
+          <caret line="83" column="19" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case study/game.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case study/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case study/cot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
         </state>
       </provider>
     </entry>
