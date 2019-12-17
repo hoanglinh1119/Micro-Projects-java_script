@@ -2,7 +2,8 @@ var Cot= function (game) {
     this.game=game;
     this.image=null;
     this.loaded=false;
-    this.x=0;
+    this.x=300;
+    this.y=320;
 
 
     var self=this;
@@ -22,17 +23,22 @@ var Cot= function (game) {
         if(this.game.gameOver){
             return;
         }
-        this.x--;
-        if(this.x==0){
-            this.x=320;
+        this.x-=2;
+        if(this.x==-50){
+            this.x=300;
+            this.y=Math.floor(200+(Math.random()*200))
         }
+
+
     }
     this.draw=function () {
         if(self.loaded==false){
             return;
         }
-        self.game.context.drawImage(this.image,this.x+160,0);
-        self.game.context.drawImage(this.image,this.x+320,400);
-        self.game.context.drawImage(this.image,this.x+480,0);
+        self.game.context.drawImage(this.image,this.x,this.y-150-320);
+        self.game.context.drawImage(this.image,this.x,this.y);
+
+
+
     }
 };

@@ -16,14 +16,14 @@ var Bg=function (game) {
             self.loaded=true;
             console.log('image loaded');
         }
-        this.image.src='bg1.jpg';
+        this.image.src='bg.png';
     }
     this.update=function () {
         if(this.game.gameOver){
             return;
         }
       this.x--;
-      if(this.x==-700){
+      if(this.x==-288){
           this.x=0;
       }
     }
@@ -32,6 +32,7 @@ var Bg=function (game) {
             return;
         }
        self.game.context.drawImage(this.image,this.x,0);
-        self.game.context.drawImage(this.image,this.x+700,0);
+        self.game.context.drawImage(this.image,this.x+288,0);
+
     }
 }

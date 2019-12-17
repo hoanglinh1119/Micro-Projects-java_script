@@ -1,8 +1,8 @@
 var Game=function () {
     this.canvas=null;
     this.context=null;
-    this.width=1500;
-    this.height=700;
+    this.width=288;
+    this.height=512;
     this.bird=null;
     this.bg=null;
     this.base=null;

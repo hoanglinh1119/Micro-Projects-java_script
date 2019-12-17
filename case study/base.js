@@ -33,10 +33,7 @@ var Base=function (game) {
             return;
         }
         self.game.context.drawImage(this.image,this.x,this.game.height-90);
-        self.game.context.drawImage(this.image,this.x+336,this.game.height-90);
-        self.game.context.drawImage(this.image,this.x+672,this.game.height-90);
-        self.game.context.drawImage(this.image,this.x+1008,this.game.height-90);
-        self.game.context.drawImage(this.image,this.x+1344,this.game.height-90);
-        self.game.context.drawImage(this.image,this.x+1680,this.game.height-90);
+        self.game.context.drawImage(this.image,this.x+288,this.game.height-90);
+
     }
 }

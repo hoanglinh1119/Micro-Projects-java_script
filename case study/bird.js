@@ -7,9 +7,10 @@ var Bird=function (game) {
     this.currentImage=null;
     this.currentImageIndex=0;
     this.currentFrame=0;
+    this.x=70;
     this.y=0;
     this.speedY=0;
-    this.acceleration=1;
+    this.acceleration=2;
     this.direction='down';
 
     self=this;
@@ -63,19 +64,33 @@ var Bird=function (game) {
            this.y+=this.speedY;
         }
 
-       if(this.y>650){
-           this.y=650;
+       if(this.y>480){
+           this.y=480;
        }
 
-       if(this.y>=600){
+       if(this.y>=400){
            this.game.gameOver=true;
        }
+       this.checkHit();
+
+
     }
+    this.checkHit=function () {
+        if((this.x+34>this.game.cot.x&&
+             this.x<this.game.cot.x+54)&&
+            (this.y<this.game.cot.y-150||
+                this.y+24>this.game.cot.y
+            )
+        ){
+            this.game.gameOver=true;
+        }
+    }
+
     this.flap=function () {
         if(this.game.gameOver){
             return;
         }
-        this.speedY=-15;
+        this.speedY=-17;
     }
 
 
@@ -95,7 +110,7 @@ var Bird=function (game) {
 
     this.draw=function () {
          if(this.img1Loaded&&this.img2Loaded&&this.img3Loaded){
-             self.game.context.drawImage(self.currentImage,100,this.y);
+             self.game.context.drawImage(self.currentImage,this.x,this.y);
          }
     }
 }
