@@ -84,6 +84,7 @@ var Bird=function (game) {
         ){
             this.game.gameOver=true;
         }
+
     }
 
     this.flap=function () {

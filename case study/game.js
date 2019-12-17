@@ -7,7 +7,7 @@ var Game=function () {
     this.bg=null;
     this.base=null;
     this.cot=null;
-
+    this.count=0;
     this.gameOver= false;
 
     var self=this;
@@ -41,8 +41,7 @@ var Game=function () {
     this.loop=function () {
         self.update();
         self.draw();
-        console.log('loop');
-        setTimeout(self.loop,33);
+        setTimeout(self.loop,45);
     }
     this.update=function () {
         this.bird.update();
@@ -58,6 +57,7 @@ var Game=function () {
 
 
     }
-}
+};
+
 var game=new Game();
 game.init();

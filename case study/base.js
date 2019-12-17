@@ -15,7 +15,7 @@ var Base=function (game) {
         this.image=new Image();
         this.image.onload=function () {
             self.loaded=true;
-            console.log('image loaded');
+
         }
         this.image.src='base.png';
     }

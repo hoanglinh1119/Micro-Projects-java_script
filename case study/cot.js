@@ -15,7 +15,7 @@ var Cot= function (game) {
         this.image=new Image();
         this.image.onload=function () {
             self.loaded=true;
-            console.log('image loaded');
+
         }
         this.image.src='cot.png';
     }
@@ -31,6 +31,7 @@ var Cot= function (game) {
 
 
     }
+
     this.draw=function () {
         if(self.loaded==false){
             return;
