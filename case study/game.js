@@ -7,15 +7,16 @@ var Game=function () {
     this.bg=null;
     this.base=null;
     this.cot=null;
-    this.count=0;
+
     this.gameOver= false;
 
     var self=this;
     this.init=function () {
-        this.canvas=document.createElement("canvas");
+        this.canvas=document.getElementById("canvas");
         this.context=this.canvas.getContext('2d');
         this.canvas.width=this.width;
         this.canvas.height=this.height;
+        this.context.strokeRect(300,300,288,512)
          document.body.appendChild(this.canvas);
 
          this.bird=new Bird(this);
@@ -29,6 +30,7 @@ var Game=function () {
 
          this.cot= new Cot(this);
          this.cot.init();
+
 
          this.listenMouse();
          this.loop();
@@ -48,12 +50,14 @@ var Game=function () {
         this.bg.update();
         this.base.update();
         this.cot.update();
+
     }
     this.draw=function () {
         this.bg.draw();
         this.cot.draw();
         this.base.draw();
         this.bird.draw();
+
 
 
     }

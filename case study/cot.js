@@ -4,6 +4,7 @@ var Cot= function (game) {
     this.loaded=false;
     this.x=300;
     this.y=320;
+    let n=0;
 
 
     var self=this;
@@ -23,8 +24,9 @@ var Cot= function (game) {
         if(this.game.gameOver){
             return;
         }
-        this.x-=2;
+        this.x-=5;
         if(this.x==-50){
+            n=n+1;
             this.x=300;
             this.y=Math.floor(200+(Math.random()*200))
         }
@@ -42,4 +44,6 @@ var Cot= function (game) {
 
 
     }
+
+
 };
