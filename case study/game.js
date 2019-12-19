@@ -59,14 +59,10 @@ var Game=function () {
 
 
 
+
+
     }
 };
 
 var game=new Game();
 game.init();
-function showScore() {
-    ctx.clearRect(279, 9, 20, 20);
-    ctx.fillStyle = gradient;
-    ctx.fillText("Score: " + game.cot.n, 220, 20);
-}
-showScore();

@@ -22,7 +22,8 @@ var Cot= function (game) {
     }
     this.update=function () {
         if(this.game.gameOver){
-            return;
+            alert('Game Over!!!!! \n\n\n Điểm của bạn là:' +n);
+            return ;
         }
         this.x-=5;
         if(this.x==-50){
@@ -40,9 +41,6 @@ var Cot= function (game) {
         }
         self.game.context.drawImage(this.image1,this.x,this.y-150-320);
         self.game.context.drawImage(this.image1,this.x,this.y);
-
-
-
     }
 
 
