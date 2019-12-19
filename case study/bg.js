@@ -1,6 +1,7 @@
 var Bg=function (game) {
     this.game=game;
     this.image=null;
+    this.image1=null;
     this.loaded=false;
     this.x=0;
 
@@ -20,7 +21,7 @@ var Bg=function (game) {
     }
     this.update=function () {
         if(this.game.gameOver){
-            return;
+            return ;
         }
       this.x--;
       if(this.x==-288){

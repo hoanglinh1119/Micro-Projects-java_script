@@ -1,6 +1,6 @@
 var Cot= function (game) {
     this.game=game;
-    this.image=null;
+    this.image1=null;
     this.loaded=false;
     this.x=300;
     this.y=320;
@@ -13,12 +13,12 @@ var Cot= function (game) {
 
     }
     this.loadImage=function () {
-        this.image=new Image();
-        this.image.onload=function () {
+        this.image1=new Image();
+        this.image1.onload=function () {
             self.loaded=true;
 
         }
-        this.image.src='cot.png';
+        this.image1.src='cot1.png';
     }
     this.update=function () {
         if(this.game.gameOver){
@@ -38,8 +38,8 @@ var Cot= function (game) {
         if(self.loaded==false){
             return;
         }
-        self.game.context.drawImage(this.image,this.x,this.y-150-320);
-        self.game.context.drawImage(this.image,this.x,this.y);
+        self.game.context.drawImage(this.image1,this.x,this.y-150-320);
+        self.game.context.drawImage(this.image1,this.x,this.y);
 
 
 

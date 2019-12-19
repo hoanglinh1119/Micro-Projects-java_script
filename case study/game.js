@@ -16,7 +16,6 @@ var Game=function () {
         this.context=this.canvas.getContext('2d');
         this.canvas.width=this.width;
         this.canvas.height=this.height;
-        this.context.strokeRect(300,300,288,512)
          document.body.appendChild(this.canvas);
 
          this.bird=new Bird(this);
@@ -65,3 +64,9 @@ var Game=function () {
 
 var game=new Game();
 game.init();
+function showScore() {
+    ctx.clearRect(279, 9, 20, 20);
+    ctx.fillStyle = gradient;
+    ctx.fillText("Score: " + game.cot.n, 220, 20);
+}
+showScore();

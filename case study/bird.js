@@ -4,6 +4,7 @@ var Bird=function (game) {
     this.img1Loaded=false;
     this.img2Loaded=false;
     this.img3Loaded=false;
+    this.img4Loaded=false;
     this.currentImage=null;
     this.currentImageIndex=0;
     this.currentFrame=0;
@@ -22,6 +23,7 @@ var Bird=function (game) {
         var img1=new Image();
         var img2=new Image();
         var img3=new Image();
+        var img4=new Image();
 
 
         img1.onload=function () {
@@ -38,22 +40,27 @@ var Bird=function (game) {
             self.img3Loaded=true;
             self.images.push(img3);
         }
+        img4.onload=function () {
+            self.img4Loaded=true;
+            self.images.push(img4);
+        }
 
         img1.src='down.png';
         img2.src='mid.png';
         img3.src='up.png';
+        img4.src='gameover.png';
 
     }
     this.update=function () {
         if(!self.img1Loaded||!self.img2Loaded||!self.img3Loaded){
-            return;
+            return self.img4Loaded=true;
         }
         self.currentFrame++;
         if(self.currentFrame%5==0){
             self.changeImage();
         }
-        if(this.y<=650){
-            if(this.direction='down'){
+        if(this.y<=600){
+            if(self.direction='down'){
                 this.speedY+=this.acceleration;
 
             }
@@ -97,7 +104,7 @@ var Bird=function (game) {
 
     this.changeImage=function(){
         if(this.game.gameOver){
-            return;
+            return this.currentImage=this.images[3];
         }
         if(this.currentImageIndex==2){
             this.currentImageIndex=0;
