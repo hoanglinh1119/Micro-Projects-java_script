@@ -18,7 +18,7 @@ var Cot= function (game) {
             self.loaded=true;
 
         }
-        this.image1.src='cot1.png';
+        this.image1.src='cot.png';
     }
     this.update=function () {
         if(this.game.gameOver){

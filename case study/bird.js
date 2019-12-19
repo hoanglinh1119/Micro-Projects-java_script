@@ -68,7 +68,7 @@ var Bird=function (game) {
            this.y=480;
        }
 
-       if(this.y>=400){
+       if(this.y>=420){
            this.game.gameOver=true;
        }
        this.checkHit();
